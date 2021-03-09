@@ -1,4 +1,6 @@
-export const api = 'http://localhost:2000/api';
-export const generatePublicUrl = (filename) => {
-    return `http://localhost:2000/public/${filename}`;
-}
+const baseUrl = "https://ecommerce-restserver.herokuapp.com";
+
+export const api = `${baseUrl}/api`;
+export const generatePublicUrl = (fileName) => {
+  return `${baseUrl}/public/${fileName}`;
+};
